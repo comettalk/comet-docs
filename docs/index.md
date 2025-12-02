@@ -1,0 +1,26 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "코멧 | Comet"
+  text: "공식 올인원 가이드북"
+  image:
+    src: /img/home/logo.png
+  actions:
+    - theme: brand
+      text: 플레이 가이드
+      link: /play/chat-type
+    - theme: alt
+      text: 제작 가이드
+      link: /tutorial/create
+
+features:
+  - title: 합리적인 가격
+    details: 안정적인 수익 모델을 기반으로 저렴한 가격에 높은 품질의 서비스를 제공합니다.
+  - title: 고급 기능
+    details: 더욱 퀄리티 높은 롤플레잉 플레이 / 제작을 위한 다양한 기능을 지원합니다.
+  - title: 실전 예제
+    details: 누구나 고퀄리티의 캐릭터를 제작할 수 있도록 다양한 예제를 제공합니다.
+---
+
