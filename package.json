@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "npx vitepress dev docs --port 5656",
     "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
+    "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
