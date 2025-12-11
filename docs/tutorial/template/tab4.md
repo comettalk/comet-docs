@@ -64,7 +64,7 @@ Javascript의 `Date.now()` 값을 불러옵니다. 세션 차원에서 전역으
 <img src="https://image.comet-talk.ai/guide/tutorial/template/cond-const.webp" style="height: 90px">
 
 **두 값의 비교 결과**를 반환합니다.
-Javascript의 weak comparision이 적용됩니다.
+Javascript의 weak comparison이 적용됩니다.
 <img src="https://image.comet-talk.ai/guide/tutorial/template/cond-compare.webp" style="height: 50px">
 
 두 조건에 대한 **연산 결과**를 반환합니다.
