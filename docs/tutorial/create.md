@@ -22,14 +22,6 @@ next: false
 HTML과 정규식을 지원하여 더욱 다양한 연출을 제작하실 수 있습니다.
 
 
-## 프로챗
-
-![](https://image.comet-talk.ai/guide/chat-type/pro-preview.png)
-
-노벨챗과 동일한 형태의 채팅에서, 종량제 시스템이 적용된 채팅입니다.
-원하는 만큼 비용을 지불하는 구조로, 무제한에 가까운 프롬프트를 사용할 수 있습니다.
-
-
 ## 템플릿
 
 ![](https://image.comet-talk.ai/guide/chat-type/template-preview.png)
