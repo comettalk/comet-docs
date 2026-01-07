@@ -42,6 +42,8 @@ export default defineConfig({
               { text: '프롬프트', link: '/tutorial/template/tab2' },
               { text: '에디터', link: '/tutorial/template/tab3' },
               { text: '스크립트', link: '/tutorial/template/tab4' },
+              { text: '스토리지', link: '/tutorial/template/tab5' },
+              { text: '트리거', link: '/tutorial/template/tab6' }
             ]
           },
           {

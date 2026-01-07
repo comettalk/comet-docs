@@ -1,7 +1,3 @@
----
-next: false
----
-
 # 스크립트 
 코멧의 템플릿에서 사용하는 블록코딩 형태의 실행 명령입니다.
 스크립트를 활용하면 더욱 다양하고 창의적인 기능을 제작할 수 있습니다.
@@ -41,6 +37,10 @@ Javascript의 `Date.now()` 값을 불러옵니다. 세션 차원에서 전역으
 | **cos** | 코사인값을 반환합니다. 단위는 육십분법입니다. |
 | **round** | 반올림값을 반환합니다. |
 | **sqrt** | 제곱근 값을 반환합니다. |
+
+**이미지 스토리지** 및 **오디오 스토리지**의 키에 따른 원본 URL을 반환합니다.
+키가 올바르지 않을 시 빈 문자열을 반환합니다.
+<img src="https://image.comet-talk.ai/guide/tutorial/template/data-storage.png" style="height: 100px">
 
 **지역변수** 값을 설정합니다. 스크립트 차원에서 전역으로 관리됩니다.
 <img src="https://image.comet-talk.ai/guide/tutorial/template/data-setlocal.webp" style="height: 60px">
@@ -94,6 +94,14 @@ Javascript의 weak comparison이 적용됩니다.
 | **되감기** | 가장 최근 로그를 취소합니다. |
 | :-: | :- |
 | **진행하기** | 바로 다음 로그를 실행합니다. |
+
+
+<img src="https://image.comet-talk.ai/guide/tutorial/template/play-node.png" style="height: 120px">
+
+| **오디오 재생** | 주어진 값을 **원본 URL**로 사용하여 음원을 재생합니다.<br>스토리지 오디오 사용 시 오디오 스토리지 블록과 함께 사용해야 합니다. |
+| :-: | :- |
+| **모든 오디오 중단** | 모든 실행 중이던 오디오를 중단합니다. |
+| **볼륨 조절** | 볼륨 크기를 조절합니다.<br>일반적으로 **0~100** 사이의 값을 권장합니다. |
 
 
 ## 상태 블록
