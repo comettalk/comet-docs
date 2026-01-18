@@ -114,3 +114,15 @@
   color: var(--vp-c-text-1);
   font-weight: 400;
 }
+
+.vp-doc blockquote{
+  border-left-color: #00f6b6;
+  background-color: #00f6b620;
+  padding: 12px 0 12px 16px;
+  color: var(--vp-c-text-1);
+}
+
+.vp-doc em{
+  font-style: normal;
+  color: var(--vp-c-text-2);
+}

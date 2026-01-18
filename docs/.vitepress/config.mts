@@ -31,11 +31,10 @@ export default defineConfig({
         ]
       },
       {
-        text: '제작 가이드',
+        text: '레퍼런스',
         items: [
-          { text: '제작 종류', link: '/tutorial/create' },
           {
-            text: '템플릿 튜토리얼',
+            text: '템플릿 매뉴얼',
             collapsed: true,
             items: [
               { text: '기본 정보', link: '/tutorial/template/tab1' },
@@ -47,7 +46,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '시네마챗 튜토리얼',
+            text: '시네마챗 매뉴얼',
             collapsed: true,
             items: [
               { text: '기본 정보', link: '/tutorial/cinema/tab1' },
@@ -59,7 +58,7 @@ export default defineConfig({
             ]
           },
           {
-            text: '노벨챗/프로챗 튜토리얼',
+            text: '노벨챗 매뉴얼',
             collapsed: true,
             items: [
               { text: '기본 정보', link: '/tutorial/novel/tab1' },
@@ -68,6 +67,74 @@ export default defineConfig({
               { text: '매크로', link: '/tutorial/novel/tab4' },
               { text: '로어북', link: '/tutorial/novel/tab5' },
               { text: '업로드', link: '/tutorial/novel/tab6' },
+            ]
+          }
+        ]
+      },
+      {
+        text: '제작 가이드',
+        items: [
+          {
+            text: 'Part 0 - 소개',
+            collapsed: true,
+            items: [
+              { text: '0. 개요', link: '/guide/introduction/1' },
+              { text: '1. AI의 정의', link: '/guide/introduction/2' },
+            ]
+          },
+          {
+            text: 'Part 1 - 프롬프트 기초',
+            collapsed: true,
+            items: [
+              { text: '2. 자연어와 문법', link: '/guide/part1/1' },
+              { text: '3. 문법의 종류', link: '/guide/part1/2' },
+              { text: '4. 프롬프트 구조 설계', link: '/guide/part1/3' },
+              { text: '5. 프롬프트 작성 기법', link: '/guide/part1/4' },
+            ]
+          },
+          {
+            text: 'Part 2 - 기본 구성 요소',
+            collapsed: true,
+            items: [
+              { text: '6. 이미지', link: '/guide/part2/1' },
+              { text: '7. 로어북', link: '/guide/part2/2' },
+              { text: '8. 매크로', link: '/guide/part2/3' }
+            ]
+          },
+          {
+            text: 'Part 3 - 실전 프롬프팅',
+            collapsed: true,
+            items: [
+              { text: '9. 구조화', link: '/guide/part3/1' },
+              { text: '10. 출력 형식 프롬프팅', link: '/guide/part3/2' },
+              { text: '11. 문체 프롬프팅', link: '/guide/part3/3' },
+              { text: '12. 캐릭터 설정 구성', link: '/guide/part3/4' }
+            ]
+          },
+          {
+            text: 'Part 4 - 프롬프트 압축',
+            collapsed: true,
+            items: [
+              { text: '13. 데이터 포매팅', link: '/guide/part4/1' },
+              { text: '14. 프롬프트 압축 키워드', link: '/guide/part4/2' }
+            ]
+          },
+          {
+            text: 'Part 5 - 이미지 데이터 압축',
+            collapsed: true,
+            items: [
+              { text: '15. 이미지와 정보량', link: '/guide/part5/1' },
+              { text: '16. 파라미터와 정규식', link: '/guide/part5/2' },
+              { text: '17. 기본값을 이용한 예외처리', link: '/guide/part5/3' },
+              { text: '18. 정규식을 이용한 예외처리', link: '/guide/part5/4' },
+            ]
+          },
+          {
+            text: 'Appendix - 추가 자료',
+            collapsed: true,
+            items: [
+              { text: '캐릭터 성격 키워드 모음', link: '/guide/appendix/1.md' },
+              { text: 'R2 Storage 사용법', link: '/guide/appendix/2.md' },
             ]
           }
         ]
@@ -82,7 +149,9 @@ export default defineConfig({
       }
     ],
 
-    // socialLinks: [ ]
+    footer: {
+      copyright: `Copyright © ${new Date().getFullYear()} Comet. All rights reserved.`
+    }
   },
   markdown: {
     breaks: true
