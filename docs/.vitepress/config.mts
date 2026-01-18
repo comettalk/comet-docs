@@ -16,7 +16,8 @@ export default defineConfig({
     nav: [
       { text: '홈', link: '/' },
       { text: '플레이 가이드', link: '/play/chat-type' },
-      { text: '제작 가이드', link: '/tutorial/create' }
+      { text: '레퍼런스', link: '/tutorial/create' },
+      { text: '제작 가이드', link: '/guide/introduction/1' },
     ],
 
     sidebar: [
