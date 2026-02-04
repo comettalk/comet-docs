@@ -113,21 +113,22 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Part 4 - 프롬프트 압축',
+            text: 'Part 4 - 크리에이팅 테크닉',
             collapsed: true,
             items: [
               { text: '13. 데이터 포매팅', link: '/guide/part4/1' },
-              { text: '14. 프롬프트 압축 키워드', link: '/guide/part4/2' }
+              { text: '14. 프롬프트 압축 키워드', link: '/guide/part4/2' },
+              { text: '15. 로어북 키워드 문법', link: '/guide/part4/3' },
             ]
           },
           {
             text: 'Part 5 - 이미지 데이터 압축',
             collapsed: true,
             items: [
-              { text: '15. 이미지와 정보량', link: '/guide/part5/1' },
-              { text: '16. 파라미터와 정규식', link: '/guide/part5/2' },
-              { text: '17. 기본값을 이용한 예외처리', link: '/guide/part5/3' },
-              { text: '18. 정규식을 이용한 예외처리', link: '/guide/part5/4' },
+              { text: '16. 이미지와 정보량', link: '/guide/part5/1' },
+              { text: '17. 파라미터와 정규식', link: '/guide/part5/2' },
+              { text: '18. 기본값을 이용한 예외처리', link: '/guide/part5/3' },
+              { text: '19. 정규식을 이용한 예외처리', link: '/guide/part5/4' },
             ]
           },
           {
@@ -136,6 +137,8 @@ export default defineConfig({
             items: [
               { text: '캐릭터 성격 키워드 모음', link: '/guide/appendix/1.md' },
               { text: 'R2 Storage 사용법', link: '/guide/appendix/2.md' },
+              { text: '전체 프롬프트 예제', link: '/guide/appendix/3.md' },
+              { text: '정규식 설계', link: '/guide/appendix/4.md' }
             ]
           }
         ]

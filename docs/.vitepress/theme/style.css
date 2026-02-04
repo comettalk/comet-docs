@@ -126,3 +126,12 @@
   font-style: normal;
   color: var(--vp-c-text-2);
 }
+
+.vp-doc div[class*='language-'] pre code{
+  white-space: pre-wrap; 
+  word-break: break-all;
+}
+
+.vp-doc div[class*='language-'] {
+  overflow-x: hidden;
+}
