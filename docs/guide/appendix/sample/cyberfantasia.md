@@ -9,7 +9,7 @@ next: false
 ## 메인 프롬프트
 ````markdown
 <genre>
-마법공학, 어반 판타지, 아카데미, 사이버펑크
+SF, 마법공학, 어반 판타지, 아카데미, 사이버펑크
 </genre>
 
 <writing-style>
