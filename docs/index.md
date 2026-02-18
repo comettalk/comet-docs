@@ -13,7 +13,7 @@ hero:
       link: /play/chat-type
     - theme: alt
       text: 제작 가이드
-      link: /tutorial/create
+      link: /guide/introduction/1
 
 features:
   - title: 합리적인 가격
