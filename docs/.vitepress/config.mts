@@ -127,8 +127,7 @@ export default defineConfig({
             items: [
               { text: '16. 이미지와 정보량', link: '/guide/part5/1' },
               { text: '17. 파라미터와 정규식', link: '/guide/part5/2' },
-              { text: '18. 기본값을 이용한 예외처리', link: '/guide/part5/3' },
-              { text: '19. 정규식을 이용한 예외처리', link: '/guide/part5/4' },
+              { text: '18. 이미지 예외처리', link: '/guide/part5/3' },
             ]
           },
           {
