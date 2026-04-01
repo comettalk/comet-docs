@@ -118,7 +118,7 @@ export default defineConfig({
             items: [
               { text: '13. 데이터 포매팅', link: '/guide/part4/1' },
               { text: '14. 프롬프트 압축 키워드', link: '/guide/part4/2' },
-              { text: '15. 로어북 키워드 문법', link: '/guide/part4/3' },
+              { text: '15. 로어북 트리거', link: '/guide/part4/3' },
             ]
           },
           {
