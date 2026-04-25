@@ -25,7 +25,6 @@ export default defineConfig({
         text: '플레이 가이드',
         items: [
           { text: '채팅 종류', link: '/play/chat-type' },
-          { text: '모델 정보', link: '/play/chat-models' },
           { text: '세션 기능', link: '/play/chat-basic' },
           { text: '페르소나 설정', link: '/play/chat-persona' },
           { text: '메모리 설정', link: '/play/chat-memory' }
@@ -128,6 +127,15 @@ export default defineConfig({
               { text: '16. 이미지와 정보량', link: '/guide/part5/1' },
               { text: '17. 파라미터와 정규식', link: '/guide/part5/2' },
               { text: '18. 이미지 예외처리', link: '/guide/part5/3' },
+            ]
+          },
+          {
+            text: 'Part 6 - 시네마챗 설계',
+            collapsed: true,
+            items: [
+              { text: '19. 시네마챗과 렌더링', link: '/guide/part6/1' },
+              { text: '20. 템플릿과 스크립트', link: '/guide/part6/2' },
+              { text: '21. 템플릿 애니메이션', link: '/guide/part6/3' }
             ]
           },
           {
