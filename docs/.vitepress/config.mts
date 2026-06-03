@@ -145,7 +145,8 @@ export default defineConfig({
               { text: '캐릭터 성격 키워드 모음', link: '/guide/appendix/1.md' },
               { text: 'R2 Storage 사용법', link: '/guide/appendix/2.md' },
               { text: '전체 프롬프트 예제', link: '/guide/appendix/3.md' },
-              { text: '정규식 설계', link: '/guide/appendix/4.md' }
+              { text: '정규식 설계', link: '/guide/appendix/4.md' },
+              { text: '이미지 미리보기 서비스', link: '/guide/appendix/5.md' }
             ]
           }
         ]
