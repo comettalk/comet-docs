@@ -83,7 +83,7 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Part 1 - 프롬프트 기초',
+            text: 'Part 1 - 프롬프트 이론',
             collapsed: true,
             items: [
               { text: '2. 자연어와 문법', link: '/guide/part1/1' },
@@ -93,22 +93,22 @@ export default defineConfig({
             ]
           },
           {
-            text: 'Part 2 - 기본 구성 요소',
+            text: 'Part 2 - 제작 따라해보기',
             collapsed: true,
             items: [
-              { text: '6. 이미지', link: '/guide/part2/1' },
-              { text: '7. 로어북', link: '/guide/part2/2' },
-              { text: '8. 매크로', link: '/guide/part2/3' }
+              { text: '6. 일대일 채팅 구성', link: '/guide/part2/1' },
+              { text: '7. 이미지와 출력 규칙', link: '/guide/part2/2' },
+              { text: '8. 시작 대화 작성', link: '/guide/part2/3' },
+              { text: '9. 일대다 채팅 구성', link: '/guide/part2/4' },
             ]
           },
           {
             text: 'Part 3 - 실전 프롬프팅',
             collapsed: true,
             items: [
-              { text: '9. 구조화', link: '/guide/part3/1' },
-              { text: '10. 출력 형식 프롬프팅', link: '/guide/part3/2' },
-              { text: '11. 문체 프롬프팅', link: '/guide/part3/3' },
-              { text: '12. 캐릭터 설정 구성', link: '/guide/part3/4' }
+              { text: '10. 구조화', link: '/guide/part3/1' },
+              { text: '11. 출력 형식 프롬프팅', link: '/guide/part3/2' },
+              { text: '12. 문체 프롬프팅', link: '/guide/part3/3' },
             ]
           },
           {

@@ -5,7 +5,7 @@ prev: false
 # 기본 정보
 유저들에게 공개적으로 공유되는 부분입니다.
 
-![](https://image.comet-talk.ai/guide/tutorial/cinema/tab1.png)
+![](https://image.comet-talk.ai/images/1787490831561-e4b13be0-ef6f-46a7-94a6-e1753a6d2ffc)
 
 ## 썸네일
 **16:9** 비율의 이미지를 업로드합니다.
